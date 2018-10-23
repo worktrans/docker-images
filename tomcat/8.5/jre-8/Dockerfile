@@ -1,8 +1,6 @@
 # tomcat 8.5.34 with jre-8
 FROM worktrans/java:8-jre
 
-LABEL Author=huchenlong<hcl0810@163.com>
-
 ARG TOMCAT_MAJOR=8
 ARG TOMCAT_VERSION=8.5.34
 ARG DOWNLOAD_URL=http://mirror.bit.edu.cn/apache/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz

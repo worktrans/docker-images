@@ -2,8 +2,6 @@
 
 FROM ubuntu:18.04
 
-LABEL Author huchenlong<hcl0810@163.com>
-
 ADD ./sources.list.bionic /etc/apt/sources.list
 
 RUN apt-get update
